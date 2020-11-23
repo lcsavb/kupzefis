@@ -3,6 +3,13 @@
 A simple CLI program to automate kernel and initramfs creation and instalation.
 I've coded it to use it in my gentoo's box running on a zfs root and booting by efistub.
 
+### Quick start
+1) Clone the repository
+
+2) python kupzefis.py [options]
+
+If no kernel version is selected, the currently selected version is choosen.
+
 ### Options
   --mountpoint TEXT  Selects efi boot partition mount directory, e.g. /efi
   
