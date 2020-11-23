@@ -8,7 +8,7 @@ I've coded it to use it in my gentoo's box running on a zfs root and booting by 
 
 2) $ python kupzefis.py [options]
 
-If no kernel version is selected, the currently selected version is choosen.
+If no kernel version is choosen, the currently selected version is automatically retrieved.
 
 ### Options
   --mountpoint TEXT  Selects efi boot partition mount directory, e.g. /efi
